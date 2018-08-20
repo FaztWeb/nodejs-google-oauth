@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-google-oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}

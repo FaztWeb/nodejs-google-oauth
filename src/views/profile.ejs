@@ -1,0 +1,14 @@
+<%- layout('layouts/main.ejs') %>
+<div class="row">
+        <div class="col s6 offset-s3 mt-4">
+          <div class="card">
+            <div class="card-image">
+              <img src="<%= user.photo %>">
+              <span class="card-title"><%= user.username %></span>
+            </div>
+            <div class="card-action center-align">
+              <a href="<%= user.googlePlusUrl %>" target="_blank">Google+ Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
